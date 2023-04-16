@@ -1,2 +1,1 @@
-# macping
-Linux bash script that allows pinging of network devices using MAC addresses
+Uses the ip, arp-scan, and ping utilities. Requires setting network interface and network address range within the script before use.
