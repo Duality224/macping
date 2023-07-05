@@ -4,4 +4,4 @@ Clears the arp cache using the ip utility, then scans the network with arp-scan 
 
 Requires setting network interface and network address range within the script before use.
 
-Also included in this repository is the maclist script. This script allows listing of all devices on the network by their MAC address, removes duplicate entries, and replaces each known device's MAC address with the respective device name.
+Also included in this repository is the maclist script (usage: maclist). This script lists all devices on the network by their MAC address, removes duplicate entries, and replaces each known device's MAC address with the respective device name.
