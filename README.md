@@ -1,6 +1,6 @@
 Usage: macping [MAC ADDRESS]
 
-Clears the arp cache using the ip utility, then scans the network with arp-scan to output the IP and MAC addresses for each device on the network. Greps the specified MAC address in the output of arp-scan, outputs the corresponding IP address, then pings the IP address. Also runs nslookup on the IP address.
+Clears the arp cache using the ip utility, then scans the network with arp-scan to output the IP and MAC addresses for each device on the network. Greps the specified MAC address in the output of arp-scan, outputs the corresponding IP address, then pings the IP address. Also runs dig on the IP address to obtain device name.
 
 Requires setting network interface and network address range within the script before use.
 
